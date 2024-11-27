@@ -49,11 +49,9 @@ yarn install
 
 pnpm install
 
-```
+## Running the Development Server
 
-Running the Development Server
 To run the development server locally, use the following command:
-```
 
 npm run dev
 
@@ -65,13 +63,12 @@ yarn dev
 
 pnpm dev
 
-```
 This will start the server, and you can view the app in your browser at http://localhost:3000.
 
+---
 
-------------------------------------------------------------------------------------------------------------------------
+## Environment Variables
 
-Environment Variables
 Make sure to set up the following environment variables in your .env.local file for the app to work:
 
 SECRET_KEY=<your_secret_key_here>
@@ -79,8 +76,10 @@ ADMIN=<your_admin_username>
 PASSWORD=<your_admin_password>
 NODE_ENV=developmen
 
-----------------------------------------------------------------------------------------------------------
-Learn More
+---
+
+## Learn More
+
 To learn more about Next.js, check out the following resources:
 
 Next.js Documentation – Learn about Next.js features and API.
@@ -94,8 +93,6 @@ Connect your GitHub repository to Vercel.
 Vercel will automatically detect that it's a Next.js project and deploy it.
 For more details on deploying with Vercel, check out the Next.js deployment documentation.
 
-License
+## License
+
 This project is licensed under the MIT License – see the LICENSE file for details.
-
-
-```
